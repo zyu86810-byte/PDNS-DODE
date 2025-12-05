@@ -35,5 +35,15 @@ If you use this code, dataset, or any results from the associated research in yo
   year={2025},
   note={Manuscript submitted for publication.}
 }
+```
+## 9. License
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
+### Permissions & Restrictions
+| Permissions                | Restrictions                     |
+|----------------------------|----------------------------------|
+| ✅ Commercial use          | ❌ Liability                     |
+| ✅ Modification            | ❌ Warranty                      |
+| ✅ Distribution            |                                  |
+| ✅ Private use             |                                  |
 
