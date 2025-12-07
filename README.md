@@ -12,8 +12,23 @@ The core algorithm is implemented within the `PDNS_DODE` Python class in `PDNS-D
 ## Methodology
 The PDNS-DODE algorithm follows a sequential two-stage optimization pipeline. It begins with a PageRank-descending initialization to ensure population diversity. The global exploration phase employs a discretized Osprey Optimization Algorithm (OOA) to identify promising regions in the solution space. Subsequently, the local exploitation phase utilizes an influence-aware adaptive Differential Evolution (DE) to refine solutions. The core innovation is the PageRank Diffusion Neighborhood Search (PDNS), which dynamically adjusts the candidate search scope within a three-hop neighborhood. A final local search step further optimizes the seed set to escape local optima.
 
-## Environment
-The code is developed and tested with Python 3.8+. It requires a few core libraries: `networkx` for graph operations, `numpy` for numerical computations, and optionally `influenceModel` for evaluating the Linear Threshold model as used in the paper's experiments. The experiments reported in the paper were conducted on a machine with an Intel Core i7-8750H CPU and 16 GB RAM.
+## Requirements
+### 1. Basic Python Environment
+The code is developed and tested with **Python 3.8.10** (compatible with Python 3.8+).
+
+### 2. Core Dependencies (Tested Versions)
+Mandatory libraries for running the core PDNS-DODE algorithm:
+- networkx 2.8.8: For graph construction and social network topology operations.
+- numpy 1.23.5: For numerical computations (e.g., PageRank calculation, solution space optimization).
+
+### 3. Optional Dependency
+- influenceModel 0.1.3: For evaluating the Linear Threshold (LT) influence diffusion model (used in the paper's experiments; not required for core algorithm execution).
+
+### 4. Experimental Hardware (for Reproducibility)
+The experiments reported in the paper were conducted on a machine with:
+- CPU: Intel Core i7-8750H
+- RAM: 16 GB
+(Note: The algorithm is compatible with standard x86/x64 CPU architectures; no GPU acceleration is required.)
 
 ## Usage Instructions
 To run the algorithm:
@@ -47,3 +62,12 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 | ✅ Distribution            |                                  |
 | ✅ Private use             |                                  |
 
+
+## Contribution Guidelines
+We welcome contributions to improve PDNS-DODE! Please follow these steps:
+1. Fork the repository to your GitHub account.
+2. Create a feature branch (e.g., `git checkout -b feature/optimize-pdns`).
+3. Ensure your code follows PEP 8 style guidelines for Python.
+4. Commit changes with clear messages (e.g., "Fix PDNS strategy's neighborhood range").
+5. Push to your branch and open a Pull Request (PR) to the main repository.
+6. PRs will be reviewed within 5 business days; merged after passing code consistency checks.
