@@ -22,7 +22,7 @@ Mandatory libraries for running the core PDNS-DODE algorithm:
 - numpy 1.23.5: For numerical computations (e.g., PageRank calculation, solution space optimization).
 
 ### 3. Optional Dependency
-- influenceModel 0.1.3: For evaluating the Linear Threshold (LT) influence diffusion model (used in the paper's experiments; not required for core algorithm execution).
+- influenceModel: For evaluating the Linear Threshold (LT and IC) influence diffusion model (used in the paper's experiments; not required for core algorithm execution).
 
 ### 4. Experimental Hardware (for Reproducibility)
 The experiments reported in the paper were conducted on a machine with:
