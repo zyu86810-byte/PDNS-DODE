@@ -64,10 +64,10 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 
 ## Contribution Guidelines
-We welcome contributions to improve PDNS-DODE! Please follow these steps:
+We welcome contributions to PDNS-DODE. Follow these steps:
 1. Fork the repository to your GitHub account.
-2. Create a feature branch (e.g., `git checkout -b feature/optimize-pdns`).
-3. Ensure your code follows PEP 8 style guidelines for Python.
-4. Commit changes with clear messages (e.g., "Fix PDNS strategy's neighborhood range").
-5. Push to your branch and open a Pull Request (PR) to the main repository.
-6. PRs will be reviewed within 5 business days; merged after passing code consistency checks.
+2. Create a feature branch for your changes.
+3. Ensure code complies with PEP 8 Python style guidelines.
+4. Commit changes with clear descriptive messages.
+5. Push your branch and open a Pull Request (PR) to the main repository.
+6. PRs will be reviewed within 5 business days and merged after consistency checks.
