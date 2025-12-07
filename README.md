@@ -69,5 +69,5 @@ We welcome contributions to PDNS-DODE. Follow these steps:
 2. Create a feature branch for your changes.
 3. Ensure code complies with PEP 8 Python style guidelines.
 4. Commit changes with clear descriptive messages.
-5. Push your branch and open a Pull Request (PR) to the main repository.
-6. PRs will be reviewed within 5 business days and merged after consistency checks.
+5. Push your branch and open a Pull Request to the main repository.
+6. Pull Requests will be reviewed within 5 business days and merged after consistency checks.
